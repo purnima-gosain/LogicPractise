@@ -1,4 +1,3 @@
-package Palindrome;
 
 
 
@@ -16,15 +15,21 @@ package Palindrome;
             sum = (sum*10) + remainder;
             x = x/10;
         }
-        if(temp == sum){
-            return true;
+        if(temp == sum){    
+             System.out.println("True");
+             return true;
         }else{
+            System.out.println("False");
             return false;
         }
     }
-
-    public static void main(String[] args){
+    public static void main(String args[]){
         Palindrome soln = new Palindrome();
         soln.isPalindrome(121);
     }
+
+//    public static void main(String[] args){
+//        Palindrome soln = new Palindrome();
+//        soln.isPalindrome(121);
+//    }
 }
