@@ -16,4 +16,9 @@ public class LongestPrefix {
         }
         return result;
     }
+    public static void main(String[] args){
+        LongestPrefix prefix = new LongestPrefix();
+        String[] input =  {"Hello","Elite","Jelly"};
+        System.out.println("The longest common Prefix is: " + prefix.commonPrefix(input) );
+    }
 }
