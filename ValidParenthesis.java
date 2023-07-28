@@ -28,7 +28,10 @@ public class ValidParenthesis {
 
     }
 
-
+    public static void main(String[] args){
+        ValidParenthesis paren = new ValidParenthesis();
+        paren.isValid("()");
+    }
 
     
 }
