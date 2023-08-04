@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class RemoveDuplicate {
 
     public int removeSameNum(int[] nums){
@@ -9,7 +11,11 @@ public class RemoveDuplicate {
             nums[count] = nums[i];
             count++;
         }
+        //  System.out.println(count);
+        //  Arrays.sort(nums);
+          System.out.println(Arrays.toString(nums));
         return count;
+       
     }
 
     public static void main(String[] args){
