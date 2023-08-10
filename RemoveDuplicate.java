@@ -6,9 +6,12 @@ public class RemoveDuplicate {
         int count = 0;
         for(int i = 0; i< nums.length;i++){
             if(i<nums.length -1 && nums[i] == nums[i+1]){
+             
               continue; 
             }
+            System.out.println(nums[4]);
             nums[count] = nums[i];
+              
             count++;
         }
         //  System.out.println(count);
